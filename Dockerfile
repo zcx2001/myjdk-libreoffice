@@ -1,6 +1,7 @@
-FROM zcx2001/myjdk:latest-$JAVA_TAG
-
+ARG JAVA_TAG=8
 ARG RUNNER=local
+
+FROM zcx2001/myjdk:latest-$JAVA_TAG
 
 # 增加常用中文字体
 ADD fonts/. /usr/share/fonts/chinese
