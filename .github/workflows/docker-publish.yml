@@ -45,4 +45,4 @@ jobs:
             RUNNER=github
           tags: |
             zcx2001/myjdk-libreoffice:${{ matrix.tag }}-${{ steps.date.outputs.today }}
-            zcx2001/myjdk-libreoffice:latest-${{ matrix.tag }}
+            zcx2001/myjdk-libreoffice:${{ matrix.tag }}-latest
