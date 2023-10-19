@@ -1,4 +1,4 @@
-FROM zcx2001/myjdk:latest-8
+FROM zcx2001/myjdk:latest-$JAVA_TAG
 
 ARG RUNNER=local
 
